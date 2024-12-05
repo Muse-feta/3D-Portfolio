@@ -31,6 +31,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import grid1 from "./grid1.png"
+import grid2 from "./grid2.png"
+import grid3 from "./grid3.png"
+import grid4 from "./grid4.png"
+import grid5 from "./grid5.png"
+import grid7 from "./grid7.png"
+import grid8 from "./grid8.png"
+import grid10 from "./grid10.png"
+import grid12 from "./grid12.jpg"
+import grid14 from "./grid14.png"
+import grid18 from "./grid18.png"
+import grid24 from "./grid24.png"
+
 export {
   logo,
   backend,
@@ -60,4 +73,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  grid1,
+  grid2,
+  grid3,
+  grid4,
+  grid5,
+  grid7,
+  grid8,
+  grid10,
+  grid12,
+  grid14,
+  grid18,
+  grid24
 };
