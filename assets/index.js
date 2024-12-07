@@ -26,6 +26,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import evan from "./company/evan.png";
+import enechawet from "./company/enechawet.png";
+import upwork from "./company/upwork.png";
+import eth from "./company/eth.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  evan,
+  enechawet,
+  upwork,
+  eth
 };

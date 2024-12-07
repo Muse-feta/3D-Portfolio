@@ -43,6 +43,7 @@ import grid12 from "./grid12.jpg"
 import grid14 from "./grid14.png"
 import grid18 from "./grid18.png"
 import grid24 from "./grid24.png"
+import grid25 from "./grid25.png"
 
 export {
   logo,
@@ -84,5 +85,6 @@ export {
   grid12,
   grid14,
   grid18,
-  grid24
+  grid24,
+  grid25,
 };

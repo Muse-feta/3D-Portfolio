@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  evan,
+  enechawet,
+  upwork,
+  eth
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +120,61 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Upwork",
+    icon: upwork, // Replace `upworkIcon` with the appropriate icon variable or path
+    iconBg: "#fff",
+    date: "March 2024 - Present",
+    points: [
+      "Provided full-stack development services to clients on Upwork, specializing in the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Delivered high-quality web applications tailored to client requirements, ensuring satisfaction and timely delivery.",
+      "Communicated effectively with clients to understand project scope and propose optimal solutions.",
+      "Developed responsive, user-friendly interfaces and robust back-end systems.",
+      "Collaborated with international clients and teams, gaining exposure to diverse industries and technologies.",
+    ],
+  },
+
+  {
+    title: "Web Game Developer",
+    company_name: "Enechawet Games",
+    icon: enechawet, // Replace `enechawetIcon` with the appropriate icon variable or path
+    iconBg: "#fff",
+    date: "October 2023 - March 2024",
+    points: [
+      "Developed interactive and engaging web-based games using modern JavaScript frameworks and libraries.",
+      "Collaborated with the design team to create visually appealing and user-friendly game interfaces.",
+      "Optimized game performance for seamless experiences across devices and browsers.",
+      "Implemented game logic, animations, and sound effects to enhance gameplay.",
+      "Worked in an agile team environment, participating in code reviews and iterative development cycles.",
+    ],
+  },
+
+  {
+    title: "Web Developer (Freelance | Remote)",
+    company_name: "EthioHealth Alliance",
+    icon: eth, // Replace `ethiohealthIcon` with the appropriate icon variable or path
+    iconBg: "#fff",
+    date: "February 2023 - April 2023",
+    points: [
+      "Developed and maintained the official website for EthioHealth Alliance, ensuring a responsive and user-friendly design.",
+      "Collaborated with stakeholders to implement new features and optimize site performance.",
+      "Worked on integrating third-party APIs to enhance website functionality and user experience.",
+      "Regularly updated content and resolved technical issues to ensure seamless operation.",
+      "Enhanced the website’s SEO to improve visibility and user engagement.",
+    ],
+  },
+  {
+    title: "Full Stack Developer (MERN)",
+    company_name: "Evangadi Bootcamp",
+    icon: evan, // Replace `evangadiIcon` with the appropriate icon variable or path
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2023 - October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed a comprehensive full-stack development bootcamp at Evangadi, focusing on the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Developed practical projects, including dynamic web applications, to strengthen technical skills.",
+      "Gained in-depth knowledge of front-end and back-end technologies and their integration.",
+      "Collaborated with instructors and peers in a hands-on, project-based learning environment.",
+      "Learned best practices for writing clean, maintainable code and deploying full-stack applications.",
     ],
   },
 ];

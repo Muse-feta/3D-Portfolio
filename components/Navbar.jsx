@@ -4,6 +4,7 @@ import { styles } from '@/app/style'
 import Link from 'next/link'
 import { navLinks } from '@/constants'
 import { logo, menu, close } from '../assets'
+import { grid24, grid25 } from '@/public/assets'
 import Image from 'next/image'
 
 const Navbar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <Image src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <Image src={grid25} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Muse &nbsp;
             <span className="sm:block hidden">| &nbsp;Portfolio</span>
