@@ -1,27 +1,26 @@
 "use client"
-import React, { Suspense } from 'react'
-import { Canvas } from '@react-three/fiber'
-import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei'
-import CanvasLoader from '../Loader'
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import {
+  Decal,
+  Float,
+  OrbitControls,
+  Preload,
+  useTexture,
+} from "@react-three/drei";
+import CanvasLoader from "../Loader";
 
 const Ball = ({ imgUrl }) => {
-  let texture;
-  try {
-    const [decal] = useTexture([imgUrl]);
-    texture = decal;
-  } catch (error) {
-    console.error("Failed to load texture:", error);
-    texture = null; // Fallback
-  }
+  const texture = useTexture(imgUrl.src);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 0, 0.05]} />
-      <mesh castShadow receiveShadow scale={2.75}>
+      <directionalLight position={[0, 0, 0.8]} />
+      <mesh castShadow receiveShadow scale={2.55}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color="#fff8eb"
+          color="#d9e4fc"
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
@@ -30,7 +29,7 @@ const Ball = ({ imgUrl }) => {
           <Decal
             position={[0, 0, 1]}
             rotation={[2 * Math.PI, 0, 6.25]}
-            scale={1}
+            scale={0.8}
             map={texture}
             flatShading
           />
@@ -40,11 +39,10 @@ const Ball = ({ imgUrl }) => {
   );
 };
 
-
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
@@ -52,7 +50,6 @@ const BallCanvas = ({ icon }) => {
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
   );

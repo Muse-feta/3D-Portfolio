@@ -1,3 +1,4 @@
+
 import {
   mobile,
   backend,
@@ -15,6 +16,7 @@ import {
   git,
   figma,
   docker,
+  next,
   meta,
   starbucks,
   tesla,
@@ -26,7 +28,12 @@ import {
   evan,
   enechawet,
   upwork,
-  eth
+  eth,
+  python,
+  mysql,
+  django,
+  bootstrap,
+  node
 } from "../assets";
 
 export const navLinks = [
@@ -64,14 +71,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,24 +88,44 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: next,
   },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  // {
+  //   name: "Bootstarp",
+  //   icon: bootstrap,
+  // },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: node,
+  },
+  {
+    name: "Django",
+    icon: django,
   },
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "MySql",
+    icon: mysql,
   },
   {
     name: "Three JS",
@@ -157,7 +184,6 @@ const experiences = [
     date: "February 2023 - April 2023",
     points: [
       "Developed and maintained the official website for EthioHealth Alliance, ensuring a responsive and user-friendly design.",
-      "Collaborated with stakeholders to implement new features and optimize site performance.",
       "Worked on integrating third-party APIs to enhance website functionality and user experience.",
       "Regularly updated content and resolved technical issues to ensure seamless operation.",
       "Enhanced the website’s SEO to improve visibility and user engagement.",
@@ -173,8 +199,7 @@ const experiences = [
       "Completed a comprehensive full-stack development bootcamp at Evangadi, focusing on the MERN stack (MongoDB, Express.js, React.js, Node.js).",
       "Developed practical projects, including dynamic web applications, to strengthen technical skills.",
       "Gained in-depth knowledge of front-end and back-end technologies and their integration.",
-      "Collaborated with instructors and peers in a hands-on, project-based learning environment.",
-      "Learned best practices for writing clean, maintainable code and deploying full-stack applications.",
+      "Collaborated with instructors and peers in a hands-on, project-based learning environment.",,
     ],
   },
 ];
