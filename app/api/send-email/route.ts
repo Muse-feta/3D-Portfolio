@@ -1,4 +1,4 @@
-import { mailer } from "@/helpers/mailer";
+import { mailer } from "../../../helpers/mailer";
 import { NextResponse, NextRequest } from "next/server";
 
 export const POST = async (req: NextRequest) => {
