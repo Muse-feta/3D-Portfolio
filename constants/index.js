@@ -118,7 +118,7 @@ const technologies = [
   {
     name: "Node JS",
     icon: node,
-  },
+  }, 
   // {
   //   name: "Django",
   //   icon: django,
