@@ -3,7 +3,7 @@ import {
   Hero,
   Navbar,
   About,
-  Tech,
+  // Tech,
   Experience,
   Works,
   Feedbacks,
@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <About />
       <Experience />
-      <Tech />
+      {/* <Tech /> */}
       <Works />
       {/* <Feedbacks /> */}
       <div className="relative z-0">

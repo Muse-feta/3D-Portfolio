@@ -83,10 +83,10 @@ const technologies = [
   //   name: "CSS 3",
   //   icon: css,
   // },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   // {
   //   name: "TypeScript",
   //   icon: typescript,
@@ -95,10 +95,10 @@ const technologies = [
   //   name: "Python",
   //   icon: python,
   // },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
   // {
   //   name: "Next JS",
   //   icon: next,
@@ -115,10 +115,10 @@ const technologies = [
   //   name: "Bootstarp",
   //   icon: bootstrap,
   // },
-  {
-    name: "Node JS",
-    icon: node,
-  }, 
+  // {
+  //   name: "Node JS",
+  //   icon: node,
+  // }, 
   // {
   //   name: "Django",
   //   icon: django,
