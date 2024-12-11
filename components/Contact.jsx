@@ -3,10 +3,10 @@ import { useState, useRef } from "react"
 import { motion } from "framer-motion"
 import emailjs from "@emailjs/browser"
 
-import { styles } from "@/app/style"
+import { styles } from "../app/style"
 import { EarthCanvas } from "./canvas"
-import { SectionWrapper } from "@/hoc"
-import { slideIn } from "@/utils/motion"
+import { SectionWrapper } from "../hoc"
+import { slideIn } from "../utils/motion"
 // import axios
 import axios from "axios"
 import { Toaster, toast } from "sonner";

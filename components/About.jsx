@@ -1,14 +1,12 @@
 "use client"
 import { useState } from "react";
 import Globe from "react-globe.gl";
-import Image from "next/image";
-import { grid1, grid2, grid3, grid4, grid5, grid24, grid14 } from "@/public/assets";
 import { saveAs } from "file-saver";
 
-import Button from "@/components/Button.jsx";
-import { styles } from "@/app/style";
+import Button from "./Button.jsx";
+import { styles } from "../app/style.js";
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "@/utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -35,8 +33,8 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container ">
-            <Image
-              src={grid24}
+            <img
+              src="assets/grid23.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
