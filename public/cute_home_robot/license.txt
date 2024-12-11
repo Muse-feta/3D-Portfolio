@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute Home Robot
+* source:	https://sketchfab.com/3d-models/cute-home-robot-7b75f204eb3e42b6babd883773e0789d
+* author:	Yandrack (https://sketchfab.com/Yandrack)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute Home Robot" (https://sketchfab.com/3d-models/cute-home-robot-7b75f204eb3e42b6babd883773e0789d) by Yandrack (https://sketchfab.com/Yandrack) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -33,7 +33,12 @@ import {
   mysql,
   django,
   bootstrap,
-  node
+  node,
+  port1,
+  port2,
+  port3,
+  port4,
+  user
 } from "../assets";
 
 export const navLinks = [
@@ -87,10 +92,10 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "Python",
-    icon: python,
-  },
+  // {
+  //   name: "Python",
+  //   icon: python,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -115,18 +120,18 @@ const technologies = [
     name: "Node JS",
     icon: node,
   },
-  {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
+  // {
+  //   name: "Django",
+  //   icon: django,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "MySql",
+  //   icon: mysql,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -207,56 +212,61 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Your dedication and professionalism have greatly contributed.",
+    name: "Amanuel Tadesse",
+    designation: "President",
+    company: "EthioHealth Alliance",
+    image: user,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Muse went above and beyond with the project i had him completed.",
+    name: "Jeff Aviles",
+    designation: "Client",
+    company: "From UpWork",
+    image: user,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Muse went above and beyond with the project i had him completed.",
+    name: "Jeff Aviles",
+    designation: "Client",
+    company: "From UpWork",
+    image: user,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Medical Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that allows users to manage their medical records, appointments, and health-related services.",
     tags: [
       {
-        name: "react",
+        name: "next.Js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: port1,
+    source_code_link: "https://github.com/Muse-feta/medical_app",
+    live_url: "https://medical-app.ethiohealthalliance.org/",
   },
   {
-    name: "Job IT",
+    name: "Garage Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web based application that allows users to manage their vehicles, services, and maintenance records.",
     tags: [
       {
         name: "react",
@@ -267,33 +277,61 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: port2,
+    source_code_link: "https://github.com/Muse-feta/GarageAppProject",
+    live_url: "https://abegarage.carmelmishel.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ethio Health Alliance Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Website for EthioHealth Alliance, a non-profit organization dedicated to providing health care services in Ethiopia.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sanity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "cpanel",
         color: "green-text-gradient",
+      },
+    ],
+    image: port3,
+    source_code_link: "https://github.com/Muse-feta/ethio-health-alliance/",
+    live_url: "https://ethiohealthalliance.org/",
+  },
+  {
+    name: "Solitare Game Website",
+    description:
+      "Website for Solitare Game, a popular card game that is played with a deck of 52 cards. It is a popular card game that is played with a deck of 52 cards.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "js",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: port4,
+    source_code_link: "https://github.com/Muse-feta/Solitare-Clone",
+    live_url: "https://muse-solitare-game.netlify.app/",
   },
 ];
 

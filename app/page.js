@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import { Toaster, toast } from "sonner";
 import {
   Hero,
   Navbar,
@@ -13,6 +14,7 @@ import {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  Fotter
 } from "../components";
 
 export default function Home() {
@@ -26,11 +28,13 @@ export default function Home() {
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
+      {/* <Feedbacks /> */}
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />
       </div>
+      <Fotter/>
+      <Toaster position="bottom-right" richColors/>
     </div>
   );
 }

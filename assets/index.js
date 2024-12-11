@@ -5,8 +5,11 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import user from "./user.png";
+import terminal from "./terminal.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -40,6 +43,10 @@ import eth from "./company/eth.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import port1 from "./port1.png";
+import port2 from "./port2.png";
+import port3 from "./port3.png";
+import port4 from "./port4.png";
 
 export {
   logo,
@@ -80,4 +87,11 @@ export {
   django,
   bootstrap,
   node,
+  live,
+  port1,
+  port2,
+  port3,
+  port4,
+  user,
+  terminal,
 };

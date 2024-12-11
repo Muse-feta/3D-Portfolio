@@ -26,6 +26,14 @@ module.exports = {
           600: "#AFB0B6",
           500: "#62646C",
         },
+        black: {
+          DEFAULT: "#000",
+          100: "#010103",
+          200: "#0E0E10",
+          300: "#1C1C21",
+          500: "#3A3A49",
+          600: "#1A1A1A",
+        },
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
@@ -35,6 +43,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/assets/herobg.png')",
+      },
+      backgroundImagee: {
+        terminal: "url('/assets/terminal.png')",
       },
     },
   },

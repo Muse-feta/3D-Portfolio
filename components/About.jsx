@@ -3,8 +3,12 @@ import { useState } from "react";
 import Globe from "react-globe.gl";
 import Image from "next/image";
 import { grid1, grid2, grid3, grid4, grid5, grid24, grid14 } from "@/public/assets";
+import { saveAs } from "file-saver";
 
 import Button from "@/components/Button.jsx";
+import { styles } from "@/app/style";
+import { motion } from "framer-motion";
+import { fadeIn, textVariant } from "@/utils/motion";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -18,13 +22,19 @@ const About = () => {
     }, 2000);
   };
 
+    const handleDownloadResume = () => {
+      saveAs("./Resume2.pdf", "Resume.pdf");
+    };
+
   return (
     <section className="c-space my-20" id="about">
+      <motion.div variants={textVariant()} className="my-20">
+        <p className={`${styles.sectionSubText} text-center`}>Get to know me</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Who I Am.</h2>
+      </motion.div>
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container ">
-            
-            
             <Image
               src={grid24}
               alt="grid-1"
@@ -91,7 +101,24 @@ const About = () => {
                 I&apos;m based in Ethiopia, Addis Ababa and open to remote work
                 worldwide.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <button className="w-full" onClick={handleDownloadResume}>
+                <Button
+                  name="Download Resume"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </button>
+              <a
+                className="w-full"
+                href="https://www.evangadi.com/files/certificates/student/MuseFeta11_26_2023_0137/MuseFeta.jpg"
+                target="_blank"
+              >
+                <Button
+                  name="View Certificates"
+                  isBeam
+                  containerClass="w-full mt-3"
+                />
+              </a>
             </div>
           </div>
         </div>
