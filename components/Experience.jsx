@@ -56,7 +56,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
@@ -66,7 +66,7 @@ const Experience = () => {
         </h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-col">
+      <div className="mt-10 flex flex-col">
         <VerticalTimeline lineColor="">
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -76,7 +76,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 
