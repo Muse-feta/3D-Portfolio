@@ -36,7 +36,7 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container ">
             <img
-              src="assets/grid23.png"
+              src="assets/grid24.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />

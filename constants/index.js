@@ -87,10 +87,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   // {
   //   name: "Python",
   //   icon: python,
@@ -99,18 +99,18 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Next JS",
-    icon: next,
-  },
+  // {
+  //   name: "Next JS",
+  //   icon: next,
+  // },
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   // {
   //   name: "Bootstarp",
   //   icon: bootstrap,
@@ -131,22 +131,22 @@ const technologies = [
   //   name: "MySql",
   //   icon: mysql,
   // },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
