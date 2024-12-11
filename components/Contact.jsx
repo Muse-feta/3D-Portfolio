@@ -1,7 +1,6 @@
 "use client"
 import { useState, useRef } from "react"
 import { motion } from "framer-motion"
-import emailjs from "@emailjs/browser"
 
 import { styles } from "../app/style"
 import { EarthCanvas } from "./canvas"

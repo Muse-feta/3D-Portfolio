@@ -1,12 +1,14 @@
 "use client"
 import { useState } from "react";
-import Globe from "react-globe.gl";
 import { saveAs } from "file-saver";
 
 import Button from "./Button.jsx";
 import { styles } from "../app/style.js";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
+import dynamic from "next/dynamic";
+// Dynamically import Globe
+const Globe = dynamic(() => import("react-globe.gl"), { ssr: false });
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -99,13 +101,13 @@ const About = () => {
                 I&apos;m based in Ethiopia, Addis Ababa and open to remote work
                 worldwide.
               </p>
-              <button className="w-full" onClick={handleDownloadResume}>
+              <div className="w-full" onClick={handleDownloadResume}>
                 <Button
                   name="Download Resume"
                   isBeam
                   containerClass="w-full mt-10"
                 />
-              </button>
+              </div>
               <a
                 className="w-full"
                 href="https://www.evangadi.com/files/certificates/student/MuseFeta11_26_2023_0137/MuseFeta.jpg"
