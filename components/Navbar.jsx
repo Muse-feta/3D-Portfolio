@@ -1,10 +1,10 @@
 "use client"
 import React, { useState, useEffect} from 'react'
-import { styles } from '@/app/style'
+import { styles } from '../app/style'
 import Link from 'next/link'
-import { navLinks } from '@/constants'
+import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
-import { grid24, grid25 } from '@/public/assets'
+import { grid24, grid25 } from '../public/assets'
 import Image from 'next/image'
 
 const Navbar = () => {

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { styles } from "@/app/style";
+import { styles } from "../app/style";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {

@@ -2,10 +2,10 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import { inView, motion } from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css'
-import { styles } from "@/app/style";
-import { experiences } from '@/constants';
-import { SectionWrapper } from '@/hoc'
-import { textVariant } from '@/utils/motion'
+import { styles } from "../app/style";
+import { experiences } from '../constants';
+import { SectionWrapper } from '../hoc'
+import { textVariant } from '../utils/motion'
 import Image from 'next/image';
 
 const ExperienceCard = ({ experience }) => {

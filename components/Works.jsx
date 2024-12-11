@@ -3,11 +3,11 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 
-import { styles } from '@/app/style'
-import { github, live } from '@/assets';
-import { SectionWrapper } from '@/hoc'
-import { projects } from '@/constants'
-import { fadeIn, textVariant } from '@/utils/motion'
+import { styles } from '../app/style'
+import { github, live } from '../assets';
+import { SectionWrapper } from '../hoc'
+import { projects } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
 import Image from 'next/image';
 
 const ProjectCard = ({

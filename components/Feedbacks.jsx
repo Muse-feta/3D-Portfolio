@@ -1,10 +1,10 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
-import { styles } from '@/app/style'
-import { SectionWrapper } from '@/hoc'
-import { fadeIn, textVariant } from '@/utils/motion'
-import { testimonials } from '@/constants'
+import { styles } from '../app/style'
+import { SectionWrapper } from '../hoc'
+import { fadeIn, textVariant } from '../utils/motion'
+import { testimonials } from '../constants'
 import Image from 'next/image'
 
 

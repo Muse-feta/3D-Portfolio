@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { styles } from "@/app/style";
+import { styles } from "../app/style";
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 
