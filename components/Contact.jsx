@@ -97,12 +97,15 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            disabled={loading}
+            className={`bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl ${
+              loading ? "opacity-50 cursor-not-allowed" : ""
+            }`} 
           >
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-       </motion.div>
+      </motion.div>
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
@@ -110,9 +113,8 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
-      
     </div>
-  )
+  );
 }
 
 export default SectionWrapper(Contact, "contact")
