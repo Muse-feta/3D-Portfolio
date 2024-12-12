@@ -28,6 +28,7 @@ const Contact = () => {
     })
   }
   const handleSubmit = async (e) => {
+      
     e.preventDefault()
     setLoading(true)
     try {
@@ -69,6 +70,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
+              required
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -80,6 +82,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
+              required
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -91,6 +94,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
+              required
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -100,7 +104,7 @@ const Contact = () => {
             disabled={loading}
             className={`bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl ${
               loading ? "opacity-50 cursor-not-allowed" : ""
-            }`} 
+            }`}
           >
             {loading ? "Sending..." : "Send"}
           </button>
