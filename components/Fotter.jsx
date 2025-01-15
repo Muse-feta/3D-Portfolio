@@ -28,7 +28,7 @@ const Footer = () => {
           >
             <FaLinkedin className="w-6 h-6 sm:w-5 sm:h-5" />
           </Link>
-          <a href="tel:+251985322632" className="hover:text-secondary">
+          <a href="tel:" className="hover:text-secondary">
             <FaPhone className="w-6 h-6 sm:w-5 sm:h-5" />
           </a>
         </div>
