@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import OpenAI from "openai";
+const OpenAI = require("openai");
 
 // export const dynamic = "force-dynamic";
 
