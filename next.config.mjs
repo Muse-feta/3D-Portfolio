@@ -2,9 +2,6 @@
 const nextConfig = {
   transpilePackages: ["three"],
   transpilePackages: ["react-intersection-observer"],
-   experimental: {
-    serverComponentsExternalPackages: ["openai"], // Ensure OpenAI package works
-  },
 };
 
 
