@@ -21,7 +21,7 @@ const Footer = () => {
             <FaGithub className="w-6 h-6 sm:w-5 sm:h-5" />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/muse-feta-3673b42a0"
+            href="https://www.linkedin.com/in/musefeta"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-secondary"
