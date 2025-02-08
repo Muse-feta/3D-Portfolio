@@ -50,6 +50,10 @@ export const metadata = {
       },
     ],
   },
+  links: {
+    linkedin: "https://www.linkedin.com/in/musefeta",
+    github: "https://github.com/muse-feta",
+  },
 };
 
 
