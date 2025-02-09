@@ -24,7 +24,7 @@ export const metadata = {
     description:
       "Muse is a Full Stack Web Developer with professional experience in building dynamic, responsive websites.",
     url: "https://musefeta.vercel.app",
-    siteName: "Muse | Portfolio",
+    siteName: "Muse Feta's | Portfolio Website",
     images: [
       {
         url: "/favicon.ico", // Replace with the path to your preview image in the public folder
@@ -38,7 +38,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image", // Type of card: "summary" or "summary_large_image"
-    title: "Muse | Portfolio",
+    title: "Muse Feta's | Portfolio Website",
     description:
       "Muse is a Full Stack Web Developer with professional experience in building dynamic, responsive websites.",
     site: "@musefeta", // Replace with your Twitter handle (optional)
