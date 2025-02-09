@@ -20,7 +20,7 @@ export const metadata = {
     google: "XUp4JdVHCCfCCdsNO19XllztF0mlUSaAn5_VjbOayHw",
   },
   openGraph: {
-    title: "Muse Feta's | Website",
+    title: "Muse Feta's | Portfolio Website",
     description:
       "Muse is a Full Stack Web Developer with professional experience in building dynamic, responsive websites.",
     url: "https://musefeta.vercel.app",
